@@ -1,0 +1,258 @@
+.top-section {
+    &__header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 24px 55px 0 100px;
+        position: relative;
+
+        @media screen and (max-width: 1500px) {
+            padding: 20px 55px 0px;
+        }
+
+        @media screen and (max-width: 900px) {
+            padding: 15px 30px 0px;
+        }
+        @media screen and (max-width: 600px) {
+            flex-direction: column;
+            gap: 15px;
+        }
+        &__bg {
+            position: absolute;
+            left: 50%;
+            top: 0;
+            transform: translateX(-50%);
+            z-index: -1;
+            width: 100%;
+
+            @media screen and (max-width: 1050px) {
+                width: 110%;
+            }
+            @media screen and (max-width: 950px) {
+                width: 125%;
+            }
+            @media screen and (max-width: 800px) {
+                top: -300px;
+                width: 1600px;
+                left: 0%;
+            }
+            @media screen and (max-width: 400px) {
+                top: -300px;
+                width: 1550px;
+                left: 0%;
+            }
+            
+        }
+
+        &__dick {
+            width: 60%;
+
+            @media screen and (max-width: 1200px) {
+                width: 65%;
+            }
+         
+
+            @media screen and (max-width: 800px) {
+                width: 600px;
+            }
+            @media screen and (max-width: 700px) {
+                width: 500px;
+            }
+            @media screen and (max-width: 680px) {
+                margin-top: 0px;
+            }
+            @media screen and (max-width: 550px) {
+                width: 450px;
+            }
+            @media screen and (max-width: 490px) {
+                width: 400px;
+            }
+            @media screen and (max-width: 450px) {
+                width: 380px;
+            }
+            @media screen and (max-width: 350px) {
+                width: 110%;
+            }
+            @media screen and (min-width: 1900px) {
+                margin-top: 100px;
+            }
+            @media screen and (min-width: 2300px) {
+                margin-top: 160px;
+            }
+        }
+
+        &__nav {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+            
+            @media screen and (max-width: 1500px) {
+                gap: 15px;
+            }
+
+            @media screen and (max-width: 600px) {
+                gap: 10px;
+            }
+        }
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+
+        @media screen and (max-width: 900px) {
+            margin-top: 20px;
+        }
+        @media screen and (max-width: 550px) {
+            padding: 0 15px;
+        }
+
+        &__title {
+            display: flex;
+            flex-direction: column;
+            gap: 0px;
+            align-items: center;
+            width: fit-content;
+            text-align: center;
+
+            &__white, &__yellow {
+                font-family: var(--fstyle-sec);
+                font-weight: 400;
+                font-size: var(--fsize-big);
+                text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                line-height: 83%;
+            }
+
+            &__white {
+                color: #fff;
+            }
+
+            &__yellow {
+                color: var(--color-yellow-variant);
+            }
+        }
+        > p {
+            text-align: center;
+            width: 90%;
+            margin-top: 28px;
+            color: #fff;
+            font-size: var(--fsize-text);
+            font-weight: 400;
+
+            @media screen and (max-width: 900px) {
+                > br {
+                    display: none;
+                }
+                margin-top: 15px;
+            }
+
+            
+        }
+    }
+}
+
+.tg {
+    border-radius: 50% !important;
+    padding: 20px 20px 20px 10px !important;
+
+    @media screen and (max-width: 1700px) {
+        padding: 16px 18px 16px 10px !important;
+
+        > img {
+            width: 40px;
+            height: 40px;
+        }
+    }
+
+    @media screen and (max-width: 1500px) {
+        padding: 12px 15px 12px 8px !important;
+
+        > img {
+            width: 35px;
+            height: 35px;
+        }
+    }
+
+    @media screen and (max-width: 900px) {
+        padding: 8px !important;
+        padding-right: 10px !important;
+        height: fit-content;
+        display: flex;
+
+        > img {
+            width: 25px;
+            height: 25px;
+        }
+    }
+    @media screen and (min-width: 1900px) {
+        padding: 20px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.twitter {
+    border-radius: 50% !important;
+    padding: 13px 14px 4px 11px !important;
+
+    @media screen and (max-width: 1700px) {
+        padding: 12px 14px 6px 9px !important;
+
+        > img {
+            width: 30px;
+            height: 30px;
+        }
+    }
+    @media screen and (max-width: 1500px) {
+        padding: 11px 13px 6px 9px !important;
+
+        > img {
+            width: 25px;
+            height: 25px;
+        }
+    }
+    @media screen and (max-width: 900px) {
+        padding-bottom: 8px !important;
+    }
+
+    @media screen and (max-width: 900px) {
+        padding: 8px !important;
+        padding-right: 10px !important;
+        height: fit-content;
+        display: flex;
+
+        > img {
+            width: 25px;
+            height: 25px;
+        }
+    }
+    @media screen and (min-width: 1900px) {
+        padding: 15px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.text {
+    box-shadow: 0px 110.202px 220.404px -44.0808px rgba(50, 50, 93, 0.25), 0px 66.1212px 132.242px -66.1212px rgba(0, 0, 0, 0.3), inset 0px 2.20404px 2.20404px rgba(255, 255, 255, 0.1);
+}
+
+.logo {
+    
+
+    @media screen and (max-width: 1700px) {
+        > img {
+            width: 140px;
+        }
+    }
+    @media screen and (max-width: 600px) {
+        > img {
+            width: 100px;
+        }
+    }
+}

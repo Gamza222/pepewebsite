@@ -1,0 +1,159 @@
+.App {
+  min-height: 100vh;
+  overflow: hidden;
+  min-width: 280px;
+  max-width: 2500px;
+  margin: 0 auto;
+}
+
+:root {
+  --color-yellow: #FCC100;
+  --color-yellow-hover: #cd9f07;
+  --color-yellow-variant: #FFBF00;
+  --color-red: #BD1D27;
+
+  --fsize-btb: 30px;
+  --fsize-big: 80px;
+  --fsize-big-sm: 65px;
+  --fsize-big-smm: 55px;
+  --fsize-text: 17px;
+  --fsize-textv: 23px;
+  --fweight-btb: 700;
+
+  --fstyle-primary:  'Open Sans', sans-serif;
+  --fstyle-sec:  'Graduate', cursive;
+}
+
+
+.btn {
+  width: fit-content;
+  background-color: var(--color-yellow);
+  padding: 23px 40px;
+  color: var(--color-red);
+  border-radius: 180px;
+  font-size: var(--fsize-btb);
+  font-weight: var(--fweight-btb);
+  transition: all 0.2s linear;
+  box-shadow: -5px 30px 40px 1px #0000004b;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--color-yellow-hover);
+  }
+
+  @media screen and (max-width: 1500px) {
+    padding: 15px 30px;
+  }
+  @media screen and (max-width: 600px) {
+    padding: 10px 20px;
+}
+}
+
+.texts {
+  font-size: var(--fsize-text);
+  line-height: 170%;
+}
+
+.titles {
+  font-family: var(--fstyle-sec);
+  font-size: var(--fsize-big-sm);
+}
+
+@media screen and (max-width: 1700px) {
+  
+  :root {
+    --fsize-btb: 25px;
+    --fsize-big: 70px;
+    --fsize-text: 18px;
+  --fsize-big-sm: 55px;
+  --fsize-big-smm: 45px;
+  --fsize-textv: 21px;
+
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  
+:root {
+  --fsize-btb: 20px;
+  --fsize-big: 65px;
+  --fsize-text: 16px;
+  --fsize-big-sm: 50px;
+  --fsize-big-smm: 40px;
+  --fsize-textv: 18px;
+
+}
+}
+
+@media screen and (max-width: 900px) {
+  
+:root {
+  --fsize-btb: 16px;
+  --fsize-big: 50px;
+  --fsize-text: 14px;
+  --fsize-big-sm: 45px;
+  --fsize-big-smm: 40px;
+  --fsize-textv: 16px;
+
+}
+}
+@media screen and (max-width: 400px) {
+  
+:root {
+  --fsize-btb: 15px;
+  --fsize-big: 40px;
+  --fsize-text: 13px;
+  --fsize-big-sm: 35px;
+  --fsize-big-smm: 30px;
+  --fsize-textv: 15px;
+
+}
+}
+@media screen and (max-width: 380px) {
+  
+:root {
+  --fsize-btb: 15px;
+  --fsize-big: 35px;
+  --fsize-text: 13px;
+  --fsize-big-sm: 32px;
+  --fsize-big-smm: 28px;
+  --fsize-textv: 15px;
+
+}
+}
+@media screen and (min-width: 1900px) {
+  
+:root {
+  --fsize-btb: 35px;
+  --fsize-big: 100px;
+  --fsize-big-sm: 72px;
+  --fsize-big-smm: 67px;
+  --fsize-text: 23px;
+  --fsize-textv: 26px;
+
+}
+}
+@media screen and (min-width: 2000px) {
+  
+:root {
+  --fsize-btb: 38px;
+  --fsize-big: 120px;
+  --fsize-big-sm: 78px;
+  --fsize-big-smm: 70px;
+  --fsize-text: 25px;
+  --fsize-textv: 29px;
+
+}
+}
+@media screen and (min-width: 2200px) {
+  
+:root {
+  --fsize-btb: 42px;
+  --fsize-big: 135px;
+  --fsize-big-sm: 85px;
+  --fsize-big-smm: 80px;
+  --fsize-text: 27px;
+  --fsize-textv: 32px;
+
+}
+}

@@ -1,0 +1,200 @@
+.invest-section {
+    position: relative;
+    &__top {
+        display: flex;
+        align-items: center;
+        padding-right: 140px;
+        background: url("../../app/assets/images/bg2.png");
+        background-size: cover;
+        background-position-x: center;
+        padding-right: 430px;
+        padding-left: 150px;
+        padding-top: 200px;
+        margin-top: -40px;
+
+        
+
+        @media screen and (max-width:2250px) {
+            padding-right: 350px;
+            padding-left: 100px;
+        }
+        
+        @media screen and (max-width:2100px) {
+            > img {
+                width: 900px;
+            }
+        }
+        @media screen and (max-width:1900px) {
+            > img {
+                width: 800px;
+            }
+        }
+        @media screen and (max-width:1700px) {
+            > img {
+                width: 700px;
+                padding-left: 40px;
+            }
+        }
+        @media screen and (max-width:1550px) {
+            > img {
+                width: 650px;
+            }
+        }
+        @media screen and (max-width:1450px) {
+            flex-direction: column;
+            padding-right: 300px;
+            padding-left: 300px;
+            padding-top: 40px;
+            text-align: center;
+
+            > img {
+                padding-left: 0;
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+        @media screen and (max-width:1050px) {
+            padding: 0 100px;
+            padding-top: 88px;
+            ;
+
+            > img {
+                width: 400px;
+            }
+        }
+        @media screen and (max-width:400px) {
+
+            > img {
+                width: 280px;
+            }
+        }
+        
+
+       &__text {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+
+        @media screen and (max-width:1900px) {
+            gap: 30px;
+        }
+        @media screen and (max-width:1450px) {
+            align-items: center;
+        }
+        > h3 {
+            color: #FFD721;
+
+            > span {
+                white-space: nowrap;
+            }
+        }
+        > p {
+            color: white;
+        } 
+       }
+    }
+    &__mid {
+    padding-bottom: 400px;
+        background-color: #BD1D27;
+        padding-top: 300px;
+        margin-top: -150px;
+        text-align: center;
+
+        > h3 {
+            font-size: var(--fsize-big);
+            font-family: var(--fstyle-sec);
+            color: white;
+            font-weight: 400;
+            line-height: 87.6%;
+
+            > span {
+                color: #FFC40F;
+            }
+        }
+
+        @media screen and (max-width: 1500px) {
+            margin-top: -200px;
+        }
+        @media screen and (max-width: 500px) {
+            margin-top: -220px;
+        }
+    }
+
+}
+
+.mics {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 300px;
+    margin-top: 100px;
+    gap: 200px;
+    margin-bottom: 130px;
+
+
+    @media screen and (max-width: 2000px) {
+        gap: 150px;
+        padding: 0 200px;
+        margin-bottom: 110px;
+    }
+    @media screen and (max-width: 1500px) {
+        gap: 100px;
+        padding: 0 100px;
+        margin-top: 40px;
+        padding-top: 20px;
+        margin-bottom: 100px;
+    }
+    @media screen and (max-width: 1300px) {
+        gap: 80px;
+        padding: 0 80px;
+        padding-top: 20px;
+        margin-bottom: 70px;
+    }
+    @media screen and (max-width: 1000px) {
+        flex-direction: column;
+    }
+    @media screen and (max-width: 500px) {
+        padding: 0 30px;
+    }
+    @media screen and (max-width: 330px) {
+        padding: 0 8px;
+    }
+
+    &__mic {
+       text-align: start;
+
+       @media screen and (max-width: 1000px) {
+        text-align: center;
+
+        > img {
+            width: 180px;
+        }
+    }
+       @media screen and (max-width: 500px) {
+        text-align: center;
+
+        > img {
+            width: 110px;
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+        padding: 0 30px;
+    }
+
+        h4 {
+            color: #FFD721;
+            margin-bottom: 20px;
+        }
+
+        > p {
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        > h5 {
+            font-size: var(--fsize-textv);
+            color: #FFD721;
+            font-weight: 700;
+        }
+    }
+}
