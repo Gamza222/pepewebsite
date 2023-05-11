@@ -2,7 +2,7 @@ import React from 'react'
 import "./TokenomicsSection.scss"
 import bg from "../../app/assets/images/bg-white.png"
 import tokenom from "../../app/assets/images/tokenomics.png"
-import pepe from "../../app/assets/images/spedente.svg"
+import pepe from "../../app/assets/images/selper.png"
 import pepeLogo from "../../app/assets/images/pepelogo.svg"
 
 const TokenomicsSection = () => {

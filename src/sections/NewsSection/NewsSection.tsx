@@ -1,6 +1,6 @@
 import React from 'react'
 import "./NewsSection.scss"
-import pic1 from "../../app/assets/images/pic1.png"
+import pic1 from "../../app/assets/images/boston.png"
 
 const NewsSection = () => {
   return (
