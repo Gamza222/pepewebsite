@@ -161,9 +161,11 @@
 
     &__mic {
        text-align: start;
+       width: 50%;
 
        @media screen and (max-width: 1000px) {
         text-align: center;
+        width: 100%;
 
         > img {
             width: 180px;
