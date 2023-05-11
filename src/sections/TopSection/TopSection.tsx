@@ -3,7 +3,7 @@ import Logo from "../../app/assets/images/pepelogo.svg"
 import Tg from "../../app/assets/images/plane.svg"
 import Twitter from "../../app/assets/images/twitter.svg"
 import Bg from "../../app/assets/images/topbg.png"
-import Dick from "../../app/assets/images/dick.svg"
+import Dick from "../../app/assets/images/pepiso.png"
 import "./TopSection.scss"
 
 const TopSection = () => {
