@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/pepewebsite/static/css/main.61d3fe54.css",
+    "main.js": "/pepewebsite/static/js/main.c45f0ee7.js",
+    "static/media/pepelogo.svg": "/pepewebsite/static/media/pepelogo.9aaa9cc1212a42321a20da8a5624dc92.svg",
+    "static/media/pepiso.png": "/pepewebsite/static/media/pepiso.fd12d0929f633a89012a.png",
+    "static/media/pizza.svg": "/pepewebsite/static/media/pizza.bc26367deb645430cc54a32c6c6221c0.svg",
+    "static/media/boston.png": "/pepewebsite/static/media/boston.d17e01bd6e77e4816d0d.png",
+    "static/media/selper.png": "/pepewebsite/static/media/selper.8d9c9610977eae777ef4.png",
+    "static/media/fucks.svg": "/pepewebsite/static/media/fucks.033d136478bc6fe696ca5302c701a97c.svg",
+    "static/media/tokenomics.png": "/pepewebsite/static/media/tokenomics.ae4b64240734b402a595.png",
+    "static/media/topbg.png": "/pepewebsite/static/media/topbg.d2cb977e6c37d1fdc1c0.png",
+    "static/media/telegr.svg": "/pepewebsite/static/media/telegr.31ab0d03312ac97404fe883358c8cbb8.svg",
+    "static/media/mic.svg": "/pepewebsite/static/media/mic.88c4fbe81b276f1bd9f7248ebfb2c845.svg",
+    "static/media/pony.svg": "/pepewebsite/static/media/pony.9a5e93a661858d9c65e763b42f7b1aad.svg",
+    "static/media/bg2.png": "/pepewebsite/static/media/bg2.295ab27acf047c93b29c.png",
+    "static/media/roadmap.png": "/pepewebsite/static/media/roadmap.53f160f8cd3387455954.png",
+    "static/media/bg-white.png": "/pepewebsite/static/media/bg-white.4950b4dcc8c07235f0ee.png",
+    "static/media/buy.png": "/pepewebsite/static/media/buy.bea675d16600ba92fe9c.png",
+    "static/media/fox.svg": "/pepewebsite/static/media/fox.be9889b0d75efd27437747ec63c92453.svg",
+    "static/media/viva.svg": "/pepewebsite/static/media/viva.b5e31d7c3e57330295a0a351d786db91.svg",
+    "static/media/efir.svg": "/pepewebsite/static/media/efir.9371d63e3fee2475670d78ca649b8a3f.svg",
+    "static/media/twitter.svg": "/pepewebsite/static/media/twitter.ed326352b1300645108713c6a9322757.svg",
+    "static/media/check.svg": "/pepewebsite/static/media/check.91088d45d48f481e62da187f899a899d.svg",
+    "index.html": "/pepewebsite/index.html",
+    "static/media/plane.svg": "/pepewebsite/static/media/plane.d6e9bcb93d77acee61762608b72972f2.svg",
+    "main.61d3fe54.css.map": "/pepewebsite/static/css/main.61d3fe54.css.map",
+    "main.c45f0ee7.js.map": "/pepewebsite/static/js/main.c45f0ee7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61d3fe54.css",
+    "static/js/main.c45f0ee7.js"
+  ]
+}
